@@ -3,7 +3,7 @@ import './Experience.css';
 const Experience = () => {
     const experiences = [
         {
-            company: 'Atishae Web Private Limited',
+            company: 'Mobioffice Software Innovations Pvt. Ltd.',
             location: 'Surat, Gujarat',
             role: 'Software Development Engineer (Web)',
             period: 'Mar 2022 – Present',
@@ -68,3 +68,4 @@ const Experience = () => {
 };
 
 export default Experience;
+
