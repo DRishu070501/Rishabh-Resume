@@ -1,0 +1,144 @@
+.education {
+    background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+.education-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    gap: 4rem;
+}
+
+.subsection-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.education-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.education-card {
+    padding: 2rem;
+    animation: slideUp 0.6s ease-out backwards;
+}
+
+.degree {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.institution {
+    color: var(--accent-blue);
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+}
+
+.edu-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.grade {
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.period {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.certifications-list {
+    padding: 2rem;
+}
+
+.cert-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cert-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.cert-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.cert-item p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.training-card {
+    padding: 2rem;
+}
+
+.training-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.training-org {
+    color: var(--accent-blue);
+    margin-bottom: 0.5rem;
+}
+
+.training-period {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.training-details {
+    list-style: none;
+    padding: 0;
+}
+
+.training-details li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.training-details li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accent-blue);
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .subsection-title {
+        font-size: 1.5rem;
+    }
+
+    .degree {
+        font-size: 1.1rem;
+    }
+
+    .institution {
+        font-size: 0.95rem;
+    }
+}
