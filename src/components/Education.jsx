@@ -25,7 +25,8 @@ const Education = () => {
     const certifications = [
         '1st Rank in C coding competition by Pixels (Bhagwan Mahaveer University)',
         '1st Rank in C coding competition by Sarvajanik College of Engineering & Technology',
-        'Certified in C (Intermediate) and Java (Basic) from Hackerrank assessments'
+        'Certified in C (Intermediate) from Hackerrank assessments',
+        'Certified in Java (Basic) from Hackerrank assessments'
     ];
 
     const training = {
@@ -99,3 +100,4 @@ const Education = () => {
 };
 
 export default Education;
+
